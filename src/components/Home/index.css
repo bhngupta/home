@@ -1,0 +1,109 @@
+/* General styles */
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px; /* Set a fixed width */
+  margin: 1px; /* Add margin for spacing between items */
+}
+
+.tech-item img {
+  height: 35px;
+}
+
+.tech-item span {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tech-item:hover span {
+  opacity: 1;
+}
+
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align all tech items */
+}
+
+/* Animation for the text and SVG sliding in from the left */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Scroll indicator animation */
+@keyframes scrollLineGrow {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 160px; /* Adjust to the final height */
+  }
+}
+
+/* Keyframes for the SVG pop-in effect */
+@keyframes svgPopIn {
+  0% {
+    transform: scale(0.5); /* Start small */
+    opacity: 0; /* Initially hidden */
+  }
+  50% {
+    transform: scale(1.1); /* Expand larger */
+    opacity: 1; /* Fade in */
+  }
+  100% {
+    transform: scale(1); /* Return to normal size */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Apply animation to the SVG */
+.svg-animate {
+  animation: svgPopIn 1.5s ease-in-out forwards;
+}
+
+/* Add animation delay for smooth staggered effect */
+.text-animate {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+/* Scroll indicator line animation */
+.scroll-line {
+  animation: scrollLineGrow 3s ease-in-out forwards;
+}
+
+@keyframes slideInOvershoot {
+  0% {
+    transform: translateX(100%); /* Start off from right */
+  }
+  60% {
+    transform: translateX(-10%); /* Overshoot to the left */
+  }
+  100% {
+    transform: translateX(0); /* Settle at final position */
+  }
+}
+
+.line-animation {
+  opacity: 0;
+  transform: translateX(100%); /* Start off-screen */
+  transition:
+    opacity 0.5s ease,
+    transform 1s ease-out;
+}
+
+.line-animation.slide-in {
+  opacity: 1;
+  transform: translateX(0); /* Slide into place */
+}
