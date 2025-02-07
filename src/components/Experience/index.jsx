@@ -184,17 +184,11 @@ const Experience = () => {
                 Sov.ai
               </h3>
               <h4 className="vertical-timeline-element-subtitle font-bold text-navy-blue mt-2">
-                Quantitative Developer Intern
+                Software Engineer Intern
               </h4>
               <ul className="list-disc ml-6 text-navy-blue">
                 <li className="mb-2">
-                  Developed Python based ETL data pipelines to process and
-                  transform large datasets, enhancing accuracy and speed for
-                  downstream applications
-                </li>
-                <li>
-                  Engineered web scrapers to extract and structure audio files,
-                  achieving reliable data integration into SQL database
+                Optimized core data validation pipelines in Python, ensuring the accuracy and consistency for downstream applications
                 </li>
               </ul>
             </VerticalTimelineElement>
@@ -213,21 +207,12 @@ const Experience = () => {
               </h4>
               <ul className="list-disc ml-6 text-navy-blue">
                 <li className="mb-2">
-                  Developed the core web application using React.js, Django and
-                  MySQL, and seamlessly integrated into CI/CD pipelines.
-                  Deployed on AWS - EC2
+                Developed user interfaces using ReactJS, Redux, Python-Django and seamlessly integrated into Jenkins-based CI/CD
+                pipelines
                 </li>
                 <li className="mb-2">
                   Programmed REST APIs and implemented query-level boosting
                   techniques, driving a 3x increase in search adoption
-                </li>
-                <li className="mb-2">
-                  Led the architecture and implementation of a Kafka based
-                  notification service with Redis caching layer
-                </li>
-                <li className="mb-2">
-                  Reduced build time by 30% through CI/CD pipelines, Docker and
-                  Terraform for infrastructure setup
                 </li>
               </ul>
             </VerticalTimelineElement>
@@ -242,21 +227,14 @@ const Experience = () => {
                 Make A Difference
               </h3>
               <h4 className="vertical-timeline-element-subtitle font-bold text-navy-blue mt-2">
-                Software Engineer Intern (Part-Time)
+                Software Engineer Intern
               </h4>
               <ul className="list-disc ml-6 text-navy-blue">
                 <li className="mb-2">
-                  Designed MongoDB schema and implemented bug management
-                  application leveraging React.js, Spring Boot and DynamoDB,
-                  reducing developer workload by 70%
+                Designed MongoDB schema and implemented bug management application leveraging ReactJS and Java
                 </li>
                 <li className="mb-2">
-                  Collaborated with the API team to migrate Java Spring Boot
-                  REST APIs to GraphQL
-                </li>
-                <li className="mb-2">
-                  Deployed comprehensive automated testing suites utilizing Jest
-                  and Selenium, resulting in 92% code coverage
+                Collaborated with product owners to devise modernization initiatives, migrated REST APIs to GraphQL
                 </li>
               </ul>
             </VerticalTimelineElement>

@@ -120,7 +120,7 @@ const Home = () => {
             I'm a <span className="font-semibold">software developer</span> from
             New York City.
           </p>
-          <div className="mt-5">
+          {/* <div className="mt-5">
             <button
               onClick={handleResume}
               className="text-[#0f1b61] group border-[#0f1b61] border-2 px-4 py-4  flex items-center hover:bg-[#0f1b61] hover:border-[#0f1b61] hover:text-[#F2EDE4] text-sm md:text-base"
@@ -130,7 +130,7 @@ const Home = () => {
                 <IconArrowRight stroke={2} className="ml-1" />
               </span>
             </button>
-          </div>
+          </div> */}
         </div>
 
         {/* SVG Section */}
