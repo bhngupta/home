@@ -184,11 +184,14 @@ const Experience = () => {
                 Sov.ai
               </h3>
               <h4 className="vertical-timeline-element-subtitle font-bold text-navy-blue mt-2">
-                Software Engineer Intern
+                Quantitative Developer Intern
               </h4>
               <ul className="list-disc ml-6 text-navy-blue">
                 <li className="mb-2">
-                Optimized core data validation pipelines in Python, ensuring the accuracy and consistency for downstream applications
+                  Collaborated with product team to improve financial simulation tools using React, Javascript and PostgreSQL
+                </li>
+                <li className="mb-2">
+                  Optimized Python pipelines and caching mechanisms, reducing query response times by ≈20%
                 </li>
               </ul>
             </VerticalTimelineElement>
@@ -207,12 +210,10 @@ const Experience = () => {
               </h4>
               <ul className="list-disc ml-6 text-navy-blue">
                 <li className="mb-2">
-                Developed user interfaces using ReactJS, Redux, Python-Django and seamlessly integrated into Jenkins-based CI/CD
-                pipelines
+                  Developed talent acquisition application using React, Redux, JavaScript and Flask and seamlessly integrated into AWS based CI/CD pipelines
                 </li>
                 <li className="mb-2">
-                  Programmed REST APIs and implemented query-level boosting
-                  techniques, driving a 3x increase in search adoption
+                  Programmed REST APIs and implemented query-level boosting  techniques, driving a 3x increase in search adoption
                 </li>
               </ul>
             </VerticalTimelineElement>
@@ -231,10 +232,10 @@ const Experience = () => {
               </h4>
               <ul className="list-disc ml-6 text-navy-blue">
                 <li className="mb-2">
-                Designed MongoDB schema and implemented bug management application leveraging ReactJS and Java
+                  Built and optimised mobile first event management application leveraging ReactJS and Java
                 </li>
                 <li className="mb-2">
-                Collaborated with product owners to devise modernization initiatives, migrated REST APIs to GraphQL
+                  Collaborated with product owners to devise modernization initiatives, migrated REST APIs to GraphQL
                 </li>
               </ul>
             </VerticalTimelineElement>
