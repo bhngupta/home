@@ -191,7 +191,7 @@ const Experience = () => {
                   Collaborated with product team to improve financial simulation tools using React, Javascript and PostgreSQL
                 </li>
                 <li className="mb-2">
-                  Optimized Python pipelines and caching mechanisms, reducing query response times by ≈20%
+                  Optimized Python pipelines and caching mechanisms, reducing query response times by ≈ 20%
                 </li>
               </ul>
             </VerticalTimelineElement>
