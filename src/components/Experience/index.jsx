@@ -72,13 +72,13 @@ const Experience = () => {
               I’m a software engineer who loves to confront challenges head-on,
               always striving for the optimal solution to intricate problems.
               Currently, I’m working at{' '}
-              <span className="font-bold text-navy-blue">Sov.ai</span> and
+              <span className="font-bold text-navy-blue">Sov.ai.</span> {/* and
               graduated from
               <span className="font-bold text-navy-blue">
                 {' '}
                 New York University
               </span>{' '}
-              with an MS in Computer Engineering. I’m passionate about pushing
+              with an MS in Computer Engineering.*/} I’m passionate about pushing
               boundaries, whether it’s in intense tennis matches or using my
               skills to make meaningful contributions in the tech world.
             </p>
@@ -175,7 +175,7 @@ const Experience = () => {
           >
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="Aug 2024 - Present"
+              date="May 2024 - Present"
               contentStyle={{ background: '#ffffff' }}
               iconStyle={{ background: '#8890B8', color: '#ffffff' }}
               icon={<IconScreenShare />}
@@ -184,14 +184,14 @@ const Experience = () => {
                 Sov.ai
               </h3>
               <h4 className="vertical-timeline-element-subtitle font-bold text-navy-blue mt-2">
-                Quantitative Developer Intern
+                Quantitative Software Developer
               </h4>
               <ul className="list-disc ml-6 text-navy-blue">
                 <li className="mb-2">
                   Collaborated with product team to improve financial simulation tools using React, Javascript and PostgreSQL
                 </li>
                 <li className="mb-2">
-                  Optimized Python pipelines and caching mechanisms, reducing query response times by ≈ 20%
+                  Optimized Go & Python pipelines and caching mechanisms, reducing query response times by ≈ 20%
                 </li>
               </ul>
             </VerticalTimelineElement>
@@ -210,10 +210,10 @@ const Experience = () => {
               </h4>
               <ul className="list-disc ml-6 text-navy-blue">
                 <li className="mb-2">
-                  Developed talent acquisition application using React, Redux, JavaScript and Flask and seamlessly integrated into AWS based CI/CD pipelines
+                  Developed talent acquisition application using React, Redux, JavaScript and seamlessly integrated into AWS based CI/CD pipelines
                 </li>
                 <li className="mb-2">
-                  Programmed REST APIs and implemented query-level boosting  techniques, driving a 3x increase in search adoption
+                  Programmed REST APIs and implemented query-level boosting techniques, driving a 3x increase in search adoption
                 </li>
               </ul>
             </VerticalTimelineElement>
