@@ -117,8 +117,8 @@ const Home = () => {
             </span>
           </h1>
           <p className="text-lg md:text-2xl mt-4 text-navy-blue">
-            I'm a <span className="font-semibold">software developer</span> from
-            New York City.
+            I'm a <span className="font-semibold">software developer</span>.
+            {/* from New York City. */}
           </p>
           {/* <div className="mt-5">
             <button

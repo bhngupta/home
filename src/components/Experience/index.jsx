@@ -86,7 +86,7 @@ const Experience = () => {
 
             {/* Skills paragraph */}
             <p className="text-navy-blue text-lg leading-relaxed">
-              I primarily code in Java and Python. With over 27 months of
+              I primarily code in Java and Python. With 1+ years of
               experience as a Software Engineer, I’m well-versed in Full Stack
               Web Development, API Development, and Data Manipulation. My
               technical expertise includes Java, Python, C++, React.js, Spring
